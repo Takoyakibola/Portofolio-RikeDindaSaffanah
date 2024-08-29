@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(227, 224, 224);
+}
+.navbar{
+    background-color: rgb(49, 49, 49);
+    margin: 0;
+    padding: 20px 30px;
+}
+
+.logo{
+    font-size: 14pt;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;  
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tombol {
+    display: none;
+    color: white;
+    font-size: 14pt;
+}
+.tombol:hover{
+    cursor: pointer;
+}
+.menu{
+    margin: 0;
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+.menu li{
+    padding-left: 0;
+    margin-right: 20px;
+}
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+.menu li a:hover{
+    color: blue;
+    transition: 0.2s;
+
+}
+@media screen and (max-width: 768px){
+    .menu{
+        display: none;
+    }
+    
+    .menu.aktif{
+        display: inline-block;
+        position: absolute;
+        top: 64px;
+        background-color: rgb(35, 35, 35);
+        padding: 10px 20px;
+        right: 0;
+        left: 0;
+    }
+    .menu.aktif li a{
+        padding: 10px;
+        display: inline-block !important;
+    }
+    .tombol{
+        display: block;
+}
+}
+
+.main{
+    background-image: url('https://t4.ftcdn.net/jpg/05/03/92/03/360_F_503920382_qtII2ItWQhToe7Djk1f2h0QqIlzQarqk.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -22px;
+    margin-bottom: -20px;
+    height: 500px;
+    
+}
+
+.main h1{
+    padding-top: 20px;
+}
+
+.main a {
+    text-decoration: none;
+}
+
+.main a :hover{
+    color: teal;
+    transition: 10s;
+}
+.bagian1{
+    background-image:linear-gradient(to left,rgb(0, 47, 255),rgb(0, 255, 208));
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -30px;
+    margin-bottom: -16px;
+    height: 400px;
+}
+
+.bagian1 p{
+    padding: 20px;
+    height: 20px;
+}
+
+.bagian1 h5{
+    padding: 5px;
+}
+
+ .footer {
+    background-image: linear-gradient(to right,rgb(165, 3, 165),pink);
+    height: 29px;
+    margin-top: -40px;
+}
+
+.location h1{
+    text-align: center;
+    padding: 30px;
+    margin-top: -40px;
+    
+}
+
+.location{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDZTW7UcT3bNnAEdxwT3RelPc8XWNfsCChSw&s');
+    height: 400px;
+}
+
+.location iframe{
+    display: block;
+    margin: auto;
+}
+
+.media{
+    background-image: url('https://www.fabmood.com/wp-content/uploads/2022/01/brown-aesthetic-2.jpg');
+    height: 500px;
+}
+
+.media h1{
+    text-align: center;
+    margin-top: -40px;
+    padding: 30px;
+}
+
+.media iframe{
+    display: block;
+    margin: auto;
+}
+
+.footer h6{
+    padding-top: 5px;
+    
+}
